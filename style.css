@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+.ota{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.yoz{
+    display: flex;
+    gap: 15px;
+}
+.container{
+    padding: 30px;
+}
+.ota1{
+    display: flex;
+}
+.yozu{
+    padding: 90px;
+    font-family: Roboto;
+font-weight: 900;
+font-size: 50px;
+
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+.btn{
+    background: linear-gradient(95.2deg, #B90160 2.23%, #2E3192 99.51%);
+width: 179px;
+height: 50px;
+
+}
+.a1{
+    text-align: center;
+    font-size: 40px;
+    padding: 30px;
+}
+.card{
+    width: 344px;
+text-align: center;
+box-shadow: 0px 0px 40px 0px #B8005F33;
+background: #FFFFFF;
+padding-bottom: 20px;
+
+}
+.card1{
+    width: 436px;
+ background-color: #FFFFFF;
+    opacity: 1;
+    border-radius: 9px;
+    text-align: center;
+    position: relative;
+    padding: 60px 40px;
+      
+    
+
+}
+.card1 img{
+position: absolute ;
+width: 120px;
+top: -60px;
+left: 50%;
+transform: translateX(-50%);
+}
+.ota2{
+    padding-top: 100px;
+    background: linear-gradient(94.31deg, rgba(212, 20, 90, 0.25) 0.96%, rgba(46, 49, 146, 0.25) 104.83%);
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 20px;
+padding: 100px;
+
+}
+
+.ota6{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px; 
+}
+#modal{
+    width: 1180px;
+    height: 392px;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    display: none;
+    padding: 60px;
+}
+input{
+    width: 362px;
+    height: 50px;
+    padding: 10px;
+    font-size: 18px;
+    border: solid gray;
+    border-radius: 10px;
+    margin: 10px;
+}
+textarea{
+    width: 752px;
+    height: 130px;
+    padding: 10px;
+    font-size: 18px;
+    border: solid gray;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.box{
+    
+}
+
+@media(max-width:768px){
+    nav{
+        display: none;
+    }
+    .ota1 img{
+        display: none;
+    }
+    .ota{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .ota2{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+    footer{
+        flex-direction: column;
+    }
+}
